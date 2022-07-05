@@ -142,6 +142,9 @@ const Home = () => {
               pointerEvents='none'
               color='#fff'
               fontSize='26px'
+              cursor="pointer"
+
+              onClick={handleSubmit}
             >
               +
             </InputLeftElement>
